@@ -2,7 +2,7 @@
 Tags: widget,wow,feeds
 Requires at least: 2.9.2
 Tested up to: 3.0.4
-Stable tag: 0.9
+Stable tag: 0.9.1
 
 Shows news feeds of a World of Warcraft guild or World of Warcraft Character provided by the new battle.net armory in a widget, with caching.
 
@@ -26,6 +26,9 @@ If you don't use the automatic installer in the wordpress backend, try the follo
 
 == Frequently Asked Questions ==
 
+= There are typos in your plugin =
+Possibly there are. But the whole content comes directly from battle.net. At the moment Blizzard seems to have had drunken translators, there are typos in the german battle.net, missing spaces and more. But if the typo isn't in the guilds news page but only in the plugin, please feel free to open a thread here on the wordpress site or contact me by mail.
+
 = How can I change how the addon looks? =
 ATM you'll need to edit your blogs stylesheet to change the look of the widgets. A good starting point might be the css class `li.widget_warcraft_news_guild ul`, but you might want to be more specific to your theme.
 In the future I might include some color themes to chose from.
@@ -37,6 +40,9 @@ In the future I might include some color themes to chose from.
 2. News about my character Baraan on a standard wordpress installation.
 
 == Changelog ==
+= 0.9.1 =
+Added a few classes and spans for more css possibilities
+
 = 0.9 =
 * First public release.
 
