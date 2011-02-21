@@ -37,6 +37,8 @@ In the future I might include some color themes to chose from.
 2. News about my character Baraan on a standard wordpress installation.
 
 == Changelog ==
+= 0.9.1.1 =
+* dumb typo :(
 = 0.9.1 =
 * Changed URL to the items on wowhead for the english lang
 = 0.9 =
