@@ -3,7 +3,7 @@
    Plugin Name: Warcraft News
    Plugin URI: http://www.xn--dark-phnix-kcb.de/warcraft-news
    Description: Shows news feeds of a World of Warcraft guild or World of Warcraft Character provided by the new battle.net armory in a widget. Includes caching of the data to prevent the armory to block wordpress's IP address.
-   Version: 0.9
+   Version: 0.9.1
    Author: Baraan@EU-Malfurion
    Author URI: http://www.xn--dark-phnix-kcb.de/
 
