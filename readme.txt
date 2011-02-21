@@ -2,7 +2,7 @@
 Tags: widget,wow,feeds
 Requires at least: 2.9.2
 Tested up to: 3.0.4
-Stable tag: 0.9
+Stable tag: 0.9.1
 
 Shows news feeds of a World of Warcraft guild or World of Warcraft Character provided by the new battle.net armory in a widget, with caching.
 
@@ -37,6 +37,8 @@ In the future I might include some color themes to chose from.
 2. News about my character Baraan on a standard wordpress installation.
 
 == Changelog ==
+= 0.9.1 =
+* Changed URL to the items on wowhead for the english lang
 = 0.9 =
 * First public release.
 

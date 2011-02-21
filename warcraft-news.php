@@ -154,6 +154,7 @@ function warcraft_news_html($instance){
 
 
 function warcraft_news_mangle_links($element, $base_url, $lang = en, $rewrite_items = true, $char_base = ""){
+	$wh_lang = ($lang = "en")?("www"):($lang);
 	if(!empty($char_base)){
 		$links = $element->find("a[href^=achievement]");
 		foreach($links as $link){
@@ -165,7 +166,7 @@ function warcraft_news_mangle_links($element, $base_url, $lang = en, $rewrite_it
 	foreach($links as $link){
 		$link->href = $base_url . $link->href;
 		if($rewrite_items){
-			$link->href = str_replace($base_url ."/wow/". $lang ."/item/", "http://$lang.wowhead.com/item=", $link->href);
+			$link->href = str_replace($base_url ."/wow/". $lang ."/item/", "http://$wh_lang.wowhead.com/item=", $link->href);
 		}
 	}
 }
