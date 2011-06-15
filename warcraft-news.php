@@ -1,13 +1,13 @@
 <?php
   /*
    Plugin Name: Warcraft News
-   Plugin URI: http://www.xn--dark-phnix-kcb.de/warcraft-news
+   Plugin URI: http://www.baraans-corner.de/wordpress-plugins/warcraft-news/
    Description: Shows news feeds of a World of Warcraft guild or World of Warcraft Character provided by the new battle.net armory in a widget. Includes caching of the data to prevent the armory to block wordpress's IP address.
    Version: 0.9.1.1
-   Author: Baraan@EU-Malfurion
-   Author URI: http://www.xn--dark-phnix-kcb.de/
+   Author: Baraan
+   Author URI: http://www.baraans-corner.de/
 
-   Copyright 2010-present Baraan@EU-Malfurion <wow@jl42.de>
+   Copyright 2010-present Baraan <baraan@baraans-corner.de>
 
    This program is free software; you can redistribute it and/or modify
    it under the terms of the GNU General Public License as published by
