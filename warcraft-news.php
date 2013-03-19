@@ -3,7 +3,7 @@
    Plugin Name: Warcraft News
    Plugin URI: http://www.baraans-corner.de/wordpress-plugins/warcraft-news/
    Description: Shows news feeds of a World of Warcraft guild or World of Warcraft Character provided by the new battle.net armory in a widget. Includes caching of the data to prevent the armory to block wordpress's IP address.
-   Version: 0.9.1.1
+   Version: 1.0
    Author: Baraan
    Author URI: http://www.baraans-corner.de/
 
@@ -42,6 +42,7 @@ function warcraft_news_html($instance){
 	$rewrite_items = get_option('warcraft_news_rewrite_items');
 	$cache_time = intval(get_option('warcraft_news_global_cache_time'))*60;
 	$cache_dir = ABSPATH . "wp-content/plugins/warcraft-news/cache";
+	$last_cache_update = 0;
 
 	if(!is_writable($cache_dir)){
 		return __("Cache directory not writable. Please make sure wordpress can write the cache files.", 'warcraft_news');
@@ -74,7 +75,9 @@ function warcraft_news_html($instance){
 		$url = $char_base . "feed";
 		$cache_file = "$cache_dir/char-$region-$realm-$name-$lang";
 	}
-	$last_cache_update = time()-filemtime($cache_file);
+	if(file_exists($cache_file) && is_readable($cache_file)){
+		$last_cache_update = time()-filemtime($cache_file);
+	}
 	$data = new warcraft_news_simple_html_dom();
 
 

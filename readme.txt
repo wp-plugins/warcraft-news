@@ -9,9 +9,7 @@ Shows news feeds of a World of Warcraft guild or World of Warcraft Character pro
 == Description ==
 Warcraft News provides a widget to display guild or character news from the new battle.net armory. You can add as many widgets as you want, e.g. one guild and three char news widgeds. It also can optionally include the wowhead javascript and replace the blizzard item links with links to wowhead with nice tooltips.
 
-As a next step I plan to add a widget to show your current guild level and the newest guild perk.
-
-This addon (currently) does not show a guild roster. There are other plugins around for that.
+This addon does not show a guild roster. There are other plugins around for that.
 
 == Installation ==
 Nothing fancy, just like any wordpress addon. After the installation make sure the cache directory (`wp-content/plugins/warcraft-news/cache`) is writable by wordpress.
@@ -40,6 +38,8 @@ In the future I might include some color themes to chose from.
 2. News about my character Baraan on a standard wordpress installation.
 
 == Changelog ==
+= 1.0 =
+Making the last version the stable one. Minimal bug fix.
 = 0.9.2 =
 Added a few classes and spans for more css possibilities
 = 0.9.1 =
